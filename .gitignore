@@ -4,7 +4,7 @@ sites/bootcamp-api.dd
 vendor/drupal/console/services.yml
 /sites/default/files/
 /vendor/
-
+# /dbbackup/
 /libraries/
 composer.lock
 /themes/custom/bootcamp-api/.sass-cache/*
