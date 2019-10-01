@@ -1,6 +1,5 @@
 sites/default/settings.php
 sites/default/settings.local.php
-sites/bootcamp-api.dd
 vendor/drupal/console/services.yml
 /sites/default/files/
 /vendor/
@@ -11,3 +10,4 @@ composer.lock
 /sites/default/sync/
 console/
 .idea/*
+sites/*.dd
