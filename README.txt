@@ -1,4 +1,6 @@
-
+# Documentation of the REST and JSONAPI API are in these ff. links:
+ * JSONAPI - http://bootcamp-api.dd:8083/admin/config/services/openapi/swagger/jsonapi
+ * REST	   - http://bootcamp-api.dd:8083/admin/config/services/openapi/swagger/rest
 CONTENTS OF THIS FILE
 ---------------------
 
