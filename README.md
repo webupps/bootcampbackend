@@ -2,7 +2,7 @@
  * JSONAPI - http://[host]:[port]/admin/config/services/openapi/swagger/jsonapi
  * REST	   - http://[host]:[port]/admin/config/services/openapi/swagger/rest
  
- ## How to setup this Drupal API on your local machine:
+## How to setup this Drupal API on your local machine:
 	1. Go to Acquia DevDesktop and install a new Drupal Site.
 	2. Append the " - copy" to the folder name of the newly installed drupal site.
 	3. Create a folder with the same name of the newly installed drupal site without the " - copy".
@@ -22,6 +22,11 @@
 	replace [find_the_latest_db_backup] with the latest db backup in the dbbackup folder.
 	13. In the same terminal, type: "drush cr".
 	14. Try opening the drupal api in a browser.
+ 
+ ## Check these modules to ensure the swagger documenation is working:
+ * OpenAPI
+ * OpenAPI UI
+ * Swagger for OpenAPI UI
  
  
 CONTENTS OF THIS FILE
