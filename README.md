@@ -23,7 +23,7 @@
 	13. In the same terminal, type: "drush cr".
 	14. Try opening the drupal api in a browser.
  
- ## Check these modules to ensure the swagger documenation is working:
+ ## Check if these modules are installed to ensure the swagger documenation is working:
  * OpenAPI
  * OpenAPI UI
  * Swagger for OpenAPI UI
