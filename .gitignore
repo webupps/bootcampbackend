@@ -4,7 +4,7 @@ vendor/drupal/console/services.yml
 /sites/default/files/
 /vendor/
 # /dbbackup/
-/libraries/
+# /libraries/
 composer.lock
 /themes/custom/bootcamp-api/.sass-cache/*
 /sites/default/sync/
