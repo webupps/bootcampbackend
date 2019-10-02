@@ -1,6 +1,29 @@
-# Documentation of the REST and JSONAPI API are in these ff. links:
+## Documentation of the REST and JSONAPI API are in these ff. links:
  * JSONAPI - http://[host]:[port]/admin/config/services/openapi/swagger/jsonapi
  * REST	   - http://[host]:[port]/admin/config/services/openapi/swagger/rest
+ 
+ ## How to setup this Drupal API on your local machine:
+	1. Go to Acquia DevDesktop and install a new Drupal Site.
+	2. Append the " - copy" to the folder name of the newly installed drupal site.
+	3. Create a folder with the same name of the newly installed drupal site without the " - copy".
+	4. Clone this repository to the new drupal folder.
+	5. In the newly installed drupal site, go to "sites/" and copy the folder with a ".dd" in its name to the same location in the new drupal folder.
+	6. In the newly installed drupal site, go to "sites/default" and copy the file "settings.php" to the same location in the new drupal folder.
+	7. After copying the "settings.php" file in the new drupal folder, open it in a text editor and go to line 777 to 779 of the code and uncomment it.
+	8. Go to Acquia DevDesktop and highlight the new website and click the terminal icon.
+	9. In the terminal, type this "mysql -u root -p backend_api" and press enter. 
+		Note: if prompt with password, just press enter or provide your mysql password if you have a mysql password on root user.
+	10. After entering mysql, type this "use [database_name];".
+		Note: replace [database_name] with the actual database name of your new drupal site.
+	11. After the above commands, type this in the same terminal in order: "drop database [database_name];" and then "create database [database_name];" and then "use [database_name];".
+		Note: replace [database_name] with the actual database name of your new drupal site.
+	12. After the above commands, type this in the same terminal again: "source [local_path_to_new_drupal_folder]/dbbackup/[find_the_latest_db_backup].sql".
+		Note: replace [local_path_to_new_drupal_folder] with the actual path of the folder in your computer. i.e. In windows - C:\Users\user\Sites\devdesktop\backend-api
+			  replace [find_the_latest_db_backup] with the latest db backup in the dbbackup folder.
+	13. In the same terminal, type: "drush cr".
+	14. Try opening the drupal api in a browser.
+ 
+ 
 CONTENTS OF THIS FILE
 ---------------------
 
